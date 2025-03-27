@@ -1,0 +1,2 @@
+- Improve styling grouping in classes
+- Add media queries
