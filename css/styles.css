@@ -1,0 +1,132 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+header,
+.hero,
+.info,
+.quote,
+.call {
+    margin: 48px 0px;
+    padding: 0 20%;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 0px 48px 0px;
+    background-color: aqua;
+}
+
+ul.links {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 16px;
+    list-style: none;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+    margin: 48px 0px;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 8px;
+}
+
+.hero-title,
+.hero-description {
+    margin: 0;
+}
+
+.hero-title {}
+
+.hero-description {}
+
+.hero-button {
+    align-self: flex-start;
+}
+
+.hero-image {}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    margin: 48px 0px;
+}
+
+.info-title {
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 48px;
+}
+
+.card {
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-subtext {
+    text-align: center;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-text {
+    margin: 0;
+}
+
+.author {
+    align-self: flex-end;
+    margin: 0;
+}
+
+.call {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-compartment {
+    width: 1000px;
+    padding: 32px;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer {
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
