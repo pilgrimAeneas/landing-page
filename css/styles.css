@@ -1,5 +1,6 @@
 html {
     box-sizing: border-box;
+    font-family: Roboto, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 *,
@@ -19,16 +20,14 @@ header,
 .info,
 .quote,
 .call {
-    margin: 48px 0px;
-    padding: 0 20%;
+    padding: 36px 15%;
 }
-
 
 header {
     display: flex;
     justify-content: space-between;
-    margin: 0px 0px 48px 0px;
-    background-color: aqua;
+    align-items: center;
+    padding-top: 16px;
 }
 
 ul.links {
@@ -41,9 +40,8 @@ ul.links {
 
 .hero {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     gap: 48px;
-    margin: 48px 0px;
 }
 
 .hero-text {
@@ -58,24 +56,20 @@ ul.links {
     margin: 0;
 }
 
-.hero-title {}
-
-.hero-description {}
-
 .hero-button {
+    margin-top: 8px;
     align-self: flex-start;
 }
-
-.hero-image {}
 
 .info {
     display: flex;
     flex-direction: column;
-    margin: 48px 0px;
+    gap: 36px;
 }
 
 .info-title {
     text-align: center;
+    margin: 0;
 }
 
 .cards {
@@ -86,7 +80,7 @@ ul.links {
 }
 
 .card {
-    width: 100px;
+    width: 125px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -122,6 +116,15 @@ ul.links {
     padding: 32px;
     display: flex;
     justify-content: space-around;
+    align-items: center;
+}
+
+.call-title {
+    margin: 8px 0;
+}
+
+.call-subtext {
+    margin: 8px 0;
 }
 
 footer {
@@ -129,4 +132,99 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+
+
+
+header,
+.hero,
+footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.hero-title {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-description,
+.links a {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.links a {
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.hero-button {
+    background-color: #3882f6;
+    border-radius: 10px;
+    color: #E5E7EB;
+    font-weight: 900;
+    border-width: 0px;
+    border-style: solid;
+    border-color: white;
+    height: 36px;
+    padding: 8px 24px;
+}
+
+.info-title {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.card-image {
+    border-radius: 10px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #3882f6;
+    padding: 8px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+.quote-text {
+    color: #1F2937;
+    font-size: 24px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.author {
+    color: #1F2937;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.call-compartment,
+.call-button {
+    background-color: #3882f6;
+    border-radius: 10px;
+    color: #E5E7EB;
+}
+
+.call-button {
+    font-weight: 900;
+    border-width: 3px;
+    border-style: solid;
+    border-color: white;
+    height: 36px;
+    padding: 8px 24px;
+}
+
+.call-title {
+    font-size: 24px;
+    font-weight: 900;
 }
